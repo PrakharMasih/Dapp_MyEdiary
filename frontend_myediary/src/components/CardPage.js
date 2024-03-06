@@ -12,7 +12,7 @@ const CardPage = () => {
   useEffect(() => {
     getData();
     console.log('first')
-  }, [updateApi]);
+  }, []);
 
 
   function getData() {
